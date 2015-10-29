@@ -33,14 +33,14 @@
               <span class="icon-bar"></span>
             </button>
 
-            <a class="navbar-brand" href="#/">Movies</a>
+            <a class="navbar-brand" href="#/">Movies Trailer</a>
           </div>
 
           <div class="collapse navbar-collapse" id="js-navbar-collapse">
 
             <ul class="nav navbar-nav">
-              <li class="active"><a href="#/">Home</a></li>
-              <li><a ng-href="#/movies">Movies</a></li>
+              <li ng-class="{active: home}"><a href="#/">Home</a></li>
+              <li ng-class="{active: other}"><a ng-href="#/movies">Movies</a></li>
             </ul>
           </div>
         </div>
@@ -84,6 +84,10 @@
         <script src="scripts/app.js"></script>
         <script src="scripts/controllers/main.js"></script>
         <script src="scripts/controllers/movies.js"></script>
+        <script src="scripts/controllers/movie-add.js"></script>
+        <script src="scripts/controllers/movie-view.js"></script>
+        <script src="scripts/controllers/movie-edit.js"></script>
+        <script src="scripts/controllers/movie-delete.js"></script>
         <!-- endbuild -->
 </body>
 </html>

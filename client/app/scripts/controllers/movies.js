@@ -10,4 +10,5 @@
 angular.module('clientApp')
   .controller('MoviesCtrl', function ($scope, Movie) {
      $scope.movies=Movie.getList().$object;
+     $scope.other=true;
   });
