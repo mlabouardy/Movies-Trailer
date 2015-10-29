@@ -1,0 +1,32 @@
+{
+  "name": "meanapp",
+  "version": "1.0.0",
+  "description": "Full stack web app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mohamed Labouardy",
+  "license": "Open Source",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mlabouardy/meanapp"
+  },
+  "keywords": [
+    "AngularJS",
+    "MongoDB",
+    "ExpressJS",
+    "NodeJS"
+  ],
+  "bugs": {
+    "url": "https://github.com/mlabouardy/meanapp/issues"
+  },
+  "dependencies": {
+    "express": "~4.13.3",
+    "mongoose": "~4.2.3",
+    "node-restful": "~0.2.2",
+    "method-override": "~2.3.5",
+    "body-parser": "~1.14.1",
+    "lodash": "~3.10.1"
+  }
+}
